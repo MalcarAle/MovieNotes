@@ -1,7 +1,8 @@
 import styled from "styled-components"
+import { Link } from "react-router-dom"
 
 export const Container = styled.div`
-   width: 100%;
+  width: 100%;
   height: 100vh;
 
   display: grid;
@@ -45,7 +46,7 @@ export const Content = styled.div`
   }
 `
 
-export const NewMovie = styled.div`
+export const NewMovie = styled(Link)`
   background-color: ${({ theme }) => theme.COLORS.PINK};
   color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
   border: none;
@@ -55,6 +56,7 @@ export const NewMovie = styled.div`
   justify-content: center;
   gap: 8px;
 
-  padding: 135px 32px;
+  padding: 13px 32px;
   border-radius: 8px;
+  font-weight: 800;
 `

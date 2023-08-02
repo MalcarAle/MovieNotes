@@ -14,12 +14,15 @@ export const Container = styled.div`
 
     padding: 0 124px;
 
-    a {
+    button {
       display: flex;
       align-items: center;
       margin-bottom: 2.5px;
       margin-left: 8px;
       color: ${({ theme }) => theme.COLORS.PINK};
+      background: transparent;
+      border: none;
+
     }
 
     svg {

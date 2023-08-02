@@ -13,5 +13,5 @@ export function AppRoutes() {
       <Route path="/details/:id" element={<Details />} />
       <Route path="/profile" element={<Profile />} />
     </Routes>
-  )
+  )  
 }

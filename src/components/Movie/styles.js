@@ -21,7 +21,7 @@ export const Container = styled.div`
 
   > p {
     text-align: justify;
-    color: ${({ theme }) => theme.COLORS.GRAY_300};
+    color: ${({ theme }) => theme.COLORS.GRAY_200};
 
     margin: 15px 0;
     max-height: 53px;
